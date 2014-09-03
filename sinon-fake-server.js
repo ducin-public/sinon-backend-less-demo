@@ -41,10 +41,10 @@ $(document).ready(function() {
     callButton.click(function() {
         $.ajax({
             url: url
-        }).done(function() {
-            console.info(arguments);
-        }).fail(function() {
-            console.error(arguments);
+        }).done(function(value) {
+            console.info(value);
+        }).fail(function(value) {
+            console.error(value);
         });
     });
 });
