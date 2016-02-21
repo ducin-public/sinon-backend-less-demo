@@ -1,3 +1,5 @@
+/* global sinon, $ */
+
 var url = 'resource.json';
 var value = ['sinon', 'is', 'a', 'nice', 'tool'];
 

@@ -1,3 +1,5 @@
+/* global sinon, $ */
+
 var externalHost = 'http://jsonplaceholder.typicode.com';
 
 var fakeServerWrapper = {
