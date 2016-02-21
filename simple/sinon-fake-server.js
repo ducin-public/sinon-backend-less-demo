@@ -6,12 +6,6 @@ var value = ['sinon', 'is', 'a', 'nice', 'tool'];
 var fakeServerWrapper = {
     init: function() {
         this.fs = sinon.fakeServer.create();
-        
-        this.fs.xhr.useFilters = true;
-        this.fs.xhr.addFilter(
-            function(method, url, async, username, password) {
-                return !(new RegExp(url)).test(url);
-        });
 
         this.fs.respondWith("GET", url,
             [200, { "Content-Type": "application/json" },
