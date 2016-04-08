@@ -7,6 +7,5 @@ See [online demo](http://ducin.github.io/sinon-backend-less-demo/):
 * `advanced` - contains slightly extended solution for registering multiple mock resources + filtering out external (real) resources
 
 Links:
-* [sinon.js](sinonjs.org)
+* [sinon.js](http://sinonjs.org/)
 * [sinon.js Fake `XMLHttpRequest` documentation](http://sinonjs.org/docs/#server)
-
