@@ -11,9 +11,9 @@ var fakeServerWrapper = {
         "method": "GET",
         "url": "resourceB.json",
         "data": {
-            "date": "22.02.2016, poniedziałek",
-            "address": "ul. Domaniewska 44, 02-672 Warszawa",
-            "description": "#6 AngularJS Warsaw odbędzie się w siedzibie Aviva (http://www.aviva.pl)"
+            "date": "15.07.2016, Monday",
+            "address": "CodeNode, 10 South Pl, London",
+            "description": "FullStack 2016 - the conference on JavaScript, Node & Internet of Things"
         }
     }],
 
